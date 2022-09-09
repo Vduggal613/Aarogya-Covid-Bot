@@ -39,6 +39,9 @@ def check_all_messages(message):
         response('Hello!', ['hello', 'hi', 'sup', 'heyo'], single_response=True)
         response('I\'m doing fine, and you?', ['how', 'are', 'you', 'doing'], required_words=['how'])
         response('Thank you!', ['i', 'love', 'code', 'palace'], required_words=['code', 'palace'])
+        response('Oh Great!', ['fine', 'good', ])
+        response('No I am in a meeting!', ['call', 'message', ])
+        response('After 1 hour!', ['when'])
 
         best_match = max(highest_prob_list, key=highest_prob_list.get)
         print(highest_prob_list)
