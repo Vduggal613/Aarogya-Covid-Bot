@@ -41,6 +41,7 @@ def check_all_messages(message):
         response('No I am in a meeting!', ['call', 'message', ])
         response('After 1 hour!', ['when'])
         response('GoodBye!', ['bye', 'goodbye', ])
+        response('You Cannot Send Empty Message!', ['',])
 
         best_match = max(highest_prob_list, key=highest_prob_list.get)
         print(highest_prob_list)
