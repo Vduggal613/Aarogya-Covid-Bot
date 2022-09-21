@@ -3,3 +3,7 @@ utter_greet:
            Hello! How can I help you?
        - text: |
            Hi!
+       - text: |
+           response('Hello! I am your chatbot based on your symptoms here i predict your disease And i also suggest treatment for that prediction disease. Tell your symptoms'  
+       - text: |   
+       response('Most common symptoms: 1. fever 2. cough 3. tiredness 4. loss of taste or smell'
