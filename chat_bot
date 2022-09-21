@@ -38,16 +38,8 @@ def check_all_messages(message):
         response('I\'m doing fine, and you?', ['how', 'hw', 'you', 'doing'])
         response('Oh Great!', ['fine', 'good', ])
         response('Which type of fever!', ['fever', 'fvr'])
-        response('Most common symptoms:
-                    fever
-                    cough
-                    tiredness
-                    loss of taste or smell', ['covid', 'syptoms',])
-        response('Isolate yourself in a well ventilated room.
-                  Use a triple layer medical mask, discard mask after 8 hours of use or earlier if they become wet or visibly soiled. In the event of a caregiver entering the room, both caregiver and patient may consider using N 95 mask.
-                  Mask should be discarded only after disinfecting it with 1% Sodium Hypochlorite.
-                  Take rest and drink a lot of fluids to maintain adequate hydration.
-                  Follow respiratory etiquettes at all times.!', ['cure' ])
+        response('Isolate yourself in a well ventilated room . Mask should be discarded only after disinfecting it with 1% Sodium Hypochlorite. Take rest and drink a lot of fluids to maintain adequate hydration.', ['cure'])
+        response('Most common symptoms: 1. fever 2. cough 3. tiredness 4. loss of taste or smell', ['symptoms', 'symptom'])
         response('No I am in a meeting!', ['call', 'message', ])
         response('After 1 hour!', ['when'])
         response('GoodBye!', ['bye', 'goodbye', ])
