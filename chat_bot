@@ -34,10 +34,20 @@ def check_all_messages(message):
             highest_prob_list[bot_response] = message_probability(message, list_of_words, single_response, required_words)
 
         # Response -------------------------------------------------------------
-        response('Hello!', ['hello', 'hi', 'sup', 'heyo'], single_response=True)
+        response('Hello! I am your chatbot based on your symptoms here i predict your disease And i also suggest treatment for that prediction disease. Tell your symptoms', ['hello', 'hi', 'sup', 'heyo'], single_response=True)
         response('I\'m doing fine, and you?', ['how', 'hw', 'you', 'doing'])
-        response('Thank you!', ['i', 'love', 'code', 'palace'])
         response('Oh Great!', ['fine', 'good', ])
+        response('Which type of fever!', ['fever', 'fvr'])
+        response('Most common symptoms:
+                    fever
+                    cough
+                    tiredness
+                    loss of taste or smell', ['covid', 'syptoms',])
+        response('Isolate yourself in a well ventilated room.
+                  Use a triple layer medical mask, discard mask after 8 hours of use or earlier if they become wet or visibly soiled. In the event of a caregiver entering the room, both caregiver and patient may consider using N 95 mask.
+                  Mask should be discarded only after disinfecting it with 1% Sodium Hypochlorite.
+                  Take rest and drink a lot of fluids to maintain adequate hydration.
+                  Follow respiratory etiquettes at all times.!', ['cure' ])
         response('No I am in a meeting!', ['call', 'message', ])
         response('After 1 hour!', ['when'])
         response('GoodBye!', ['bye', 'goodbye', ])
